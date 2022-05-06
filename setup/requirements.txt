@@ -1,12 +1,17 @@
+  <<<<<<< snyk-fix-df83270960171d439910c6244ad09247
 urllib3<1.23,>=1.21.1
-requests==2.18.4
+requests==2.20
+  =======
+urllib3<1.26.5,>=1.26.5
+requests==2.20.0
+  >>>>>>> master
 setuptools
 iptools
 pydispatcher
 flask
 macholib
 dropbox
-pyOpenSSL==17.2.0
+pyOpenSSL==17.5.0
 pyinstaller
 zlib_wrapper
 netifaces
@@ -16,3 +21,4 @@ cryptography
 pyminifier==2.1
 xlutils
 pycrypto
+ 

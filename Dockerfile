@@ -19,7 +19,11 @@
 # -----BUILD ENTRY-----
 
 # image base
+  <<<<<<< snyk-fix-098bbfff59c5c2f9d8490d0a678b80dc
 FROM ubuntu:xenial-20210114
+  =======
+FROM ubuntu:xenial-20210416
+  >>>>>>> master
 
 # pull from BUILD
 ARG empirversion
@@ -58,3 +62,4 @@ RUN git clone --depth=1 -b dev https://github.com/EmpireProject/Empire.git /opt/
 RUN python2.7 /opt/Empire/setup/setup_database.py
 WORKDIR "/opt/Empire"
 CMD ["python2.7", "empire"]
+ 
